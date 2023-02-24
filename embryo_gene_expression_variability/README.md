@@ -24,5 +24,14 @@ and then perform pathway analysis using Enrichr on the top n high and low genes.
 This yields a dataframe with pathway information, including columns for the pathway, p-value, list of overlapping genes, database, timepoint, and gene type (high or low inter-fish/mpKLD).
 * The last part of the notebook includes code to make the following figures found in the figure and supplementary:
   * The first plot is a demonstration of a few specific genes, showing their gene count distributions per embryo and heatmap of pairwise Kullback-Leibler scores.
+
+  <img width="700" alt="image" src="https://user-images.githubusercontent.com/35573897/221312139-321f3746-6d85-49a3-9431-311a33e50f3e.png">
+ 
   * The second plot is a multiplot that compares the null model to the original data.
+
+  <img width="771" alt="image" src="https://user-images.githubusercontent.com/35573897/221311925-6c75fc8b-b741-47ea-b45d-773cee3f60fd.png">
+
   * This notebook also contains the code for the Kolmogorov-Smirnov test between adjacent timepoints.
+  
+  <img width="410" alt="image" src="https://user-images.githubusercontent.com/35573897/221312393-6da00134-1d9b-474d-becb-06def49c7d04.png">
+
