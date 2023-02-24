@@ -9,11 +9,18 @@ We developed a framework based on the Kullback-Leibler divergence (KLD) to quant
 * For a specific gene and cell cluster, we use the Kullback-Leibler divergence to compare the distributions, which have been smoothed using a Gaussian kernel. 
 After running the notebook, the output is a csv with columns including gene, timepoint, cluster (cell type), 
 and median (the median pairwise Kullback-Leibler divergence score, mpKLD).
-* The second part of the notebook is the null model for the mpKLD scores. 
+
+<img width="626" alt="image" src="https://user-images.githubusercontent.com/35573897/221313426-93f3d0aa-4c30-42e3-a226-5a49eea35264.png">
+
+* The second part of the notebook is the null model for the mpKLD scores for a **single timepoint**. 
 To establish a negative control for the difference between embryos, we randomly reassign the embryo-ID for each cell, 
 and then re-run the analysis of comparing the gene distributions. We repeat this process n=20 times.
 The null model is output in a csv containing the same columns as the mpKLD dataframe, 
 but includes a column 'Random_State' stating which randomized iteration the analysis comes from.
+
+<img width="643" alt="image" src="https://user-images.githubusercontent.com/35573897/221313827-01ac9429-8468-4849-b81f-9f78db6b7c7c.png">
+
+
 
 ## 2. The notebook *Inter-Embryo_Divergence_PathwayAnalysis_Plots.ipynb* contains the code to create many of the plots seen in the paper (Fig. and Supp.), as well as filtering of the mpKLD dataframe and pathway analysis.
 * Depending on the desired analysis, the notebook requires uploading the mpKLD dataframe and null model dataframe from part (1) and the anndata object.
