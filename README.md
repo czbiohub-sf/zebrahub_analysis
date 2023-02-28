@@ -25,10 +25,7 @@ The structure of this repo is illustrated below.
 
 ## Set up the Conda Environment
 
-### 1. Pre Processing
-
-
-### 2. Embryo Gene Expression Variability
+### Embryo Gene Expression Variability
 
 ![image](https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png)
 
