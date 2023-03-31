@@ -1,4 +1,5 @@
 # Zebrahub: RNA-sequencing analysis 
+[![Python](https://img.shields.io/badge/python-3.7%20%7C%203.8%20%7C%203.9-blue)](https://www.python.org/downloads/)
 
 
 ![image](https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png)
@@ -24,7 +25,7 @@ Data is accesible through the Zebrahub portal: https://zebrahub.ds.czbiohub.org/
 ## Table of Contents
 - [Repo organization](#organization)
 - [Setting up an environment](#conda)
-- [Credits](#credits)
+- [Citing](#citing)
 
 
 ## Organization
@@ -84,4 +85,19 @@ conda install -c conda-forge re2
 conda install -c jmcmurray json
 conda install -c anaconda requests
 
+```
+
+
+## Citing 
+If used plase cite: 
+
+```
+@article{lange2023zebrahub,
+  title={Zebrahub-Multimodal Zebrafish Developmental Atlas Reveals the State Transition Dynamics of Late Vertebrate Pluripotent Axial Progenitors},
+  author={Lange, Merlin and Granados, Alejandro and VijayKumar, Shruthi and Bragantini, Jordao and Ancheta, Sarah and Santhosh, Sreejith and Borja, Michael and Kobayashi, Hirofumi and McGeever, Erin and Solak, Ahmet Can and others},
+  journal={bioRxiv},
+  pages={2023--03},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory}
+}
 ```
