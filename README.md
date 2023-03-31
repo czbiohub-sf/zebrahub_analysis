@@ -14,9 +14,12 @@
 </figure>
 -->
 
-<span style="color:gray; font-style:italic;">
-This repository is part of a scientific [URL](https://www.biorxiv.org/content/10.1101/2023.03.06.531398v1) manuscript.
-</span>
+
+*This repository is part of a manuscript* [zebrahub][1]
+
+*This repository is part of a manuscript <span style="color:gray;">gray font color</span> *that includes a [URL](https://www.example.com/) inside the same sentence.*
+
+
 
 Elucidating the developmental process of an organism will require the complete cartography of cellular lineages in the spatial, temporal, and molecular domains. We present Zebrahub, a comprehensive dynamic atlas of zebrafish embryonic development that combines single-cell sequencing time course data with light-sheet microscopy-based lineage reconstructions. Zebrahub is a foundational resource to study developmental processes at both transcriptional and spatiotemporal levels. It is publicly accessible as a web-based resource, providing an open-access collection of datasets and tools.<br>
 
@@ -106,3 +109,6 @@ If used plase cite:
   publisher={Cold Spring Harbor Laboratory}
 }
 ```
+
+
+[1]: https://www.biorxiv.org/content/10.1101/2023.03.06.531398v1
