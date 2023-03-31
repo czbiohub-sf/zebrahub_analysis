@@ -1,13 +1,16 @@
 # Zebrahub: RNA-sequencing analysis 
 
-<!--
+
 ![image](https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png)
--->
+*Schematic of the analysis workflow to understand differences between genetically identical embryos. For each gene, we compare the distribution of counts across single-cells using the Kullback–Leibler divergence metric.*
+
+
+<!--
 <figure>
   <img src="https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png" alt="image">
   <figcaption>Schematic of the analysis workflow to understand differences between genetically identical embryos. For each gene, we compare the distribution of counts across single-cells using the Kullback–Leibler divergence metric. </figcaption>
 </figure>
-
+-->
 
 Elucidating the developmental process of an organism will require the complete cartography of cellular lineages in the spatial, temporal, and molecular domains. We present Zebrahub, a comprehensive dynamic atlas of zebrafish embryonic development that combines single-cell sequencing time course data with light-sheet microscopy-based lineage reconstructions. Zebrahub is a foundational resource to study developmental processes at both transcriptional and spatiotemporal levels. It is publicly accessible as a web-based resource, providing an open-access collection of datasets and tools.<br>
 
