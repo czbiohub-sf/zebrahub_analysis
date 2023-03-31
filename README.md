@@ -1,5 +1,14 @@
 # Zebrahub: RNA-sequencing analysis 
 
+<!--
+![image](https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png)
+-->
+<figure>
+  <img src="https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png" alt="image">
+  <figcaption>Schematic of the analysis workflow to understand differences between genetically identical embryos. For each gene, we compare the distribution of counts across single-cells using the Kullback–Leibler divergence metric. </figcaption>
+</figure>
+
+
 Elucidating the developmental process of an organism will require the complete cartography of cellular lineages in the spatial, temporal, and molecular domains. We present Zebrahub, a comprehensive dynamic atlas of zebrafish embryonic development that combines single-cell sequencing time course data with light-sheet microscopy-based lineage reconstructions. Zebrahub is a foundational resource to study developmental processes at both transcriptional and spatiotemporal levels. It is publicly accessible as a web-based resource, providing an open-access collection of datasets and tools.<br>
 
 This repository contains a collection of scripts and notebooks to analyze Zebrahub's single-cell RNA seq data and generate the corresponding figures as published in the manuscript. <br> For analysis of imaging data, please refere to https://github.com/royerlab/in-silico-fate-mapping <br>
@@ -14,13 +23,16 @@ Data is accesible through the Zebrahub portal: https://zebrahub.ds.czbiohub.org/
 - [Setting up an environment](#conda)
 - [Credits](#credits)
 
-Contains the notebooks used for the following analyses:
-* scRNAseq processing (pre_processing)
-* RNA velocity
-* State transition analysis from RNA velocity methods (state_transitions)
-* embryo gene expression variability
 
 ## Organization
+
+Each folder contains the notebooks used for the following analyses:
+* scRNAseq processing (pre_processing + clustering)
+* RNA velocity (scVelo + single-cell velocity quantification)
+* State transition analysis from RNA velocity methods (state_transitions)
+* embryo gene expression variability (Kullback–Leibler divergence)
+
+
 The structure of this repo is illustrated below. 
 ```
 ├── pre-processing (contains pre-processing, timepoint integration and clustering notebooks)
@@ -44,9 +56,6 @@ The structure of this repo is illustrated below.
 
 ## Setting up a conda environment <a name="conda"></a>
 
-### Embryo Gene Expression Variability
-
-![image](https://user-images.githubusercontent.com/35573897/221049586-b0bc8f05-b035-4279-9116-62ebf9b97c53.png)
 
 We set up the conda environment to run the inter-embryo analysis notebooks by running the following commands in the terminal:
 
