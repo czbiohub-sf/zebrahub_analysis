@@ -1,5 +1,4 @@
-# zebrahub_analysis
-
+# Zebrahub: RNA-sequencing analysis 
 
 Elucidating the developmental process of an organism will require the complete cartography of cellular lineages in the spatial, temporal, and molecular domains. We present Zebrahub, a comprehensive dynamic atlas of zebrafish embryonic development that combines single-cell sequencing time course data with light-sheet microscopy-based lineage reconstructions. Zebrahub is a foundational resource to study developmental processes at both transcriptional and spatiotemporal levels. It is publicly accessible as a web-based resource, providing an open-access collection of datasets and tools.<br>
 
@@ -9,8 +8,11 @@ The manuscript is  published here:  https://www.biorxiv.org/content/10.1101/2023
 Data is accesible through the Zebrahub portal: https://zebrahub.ds.czbiohub.org/
 <br>
 <br>
-The notebooks include the following analysis tasks: 
-* QC and clustering of 
+
+## Table of Contents
+- [Repo organization](#organization)
+- [Setting up an environment](#conda)
+- [Credits](#credits)
 
 Contains the notebooks used for the following analyses:
 * scRNAseq processing (pre_processing)
@@ -40,7 +42,7 @@ The structure of this repo is illustrated below.
 ```
 
 
-## Set up the Conda Environment
+## Setting up a conda environment <a name="conda"></a>
 
 ### Embryo Gene Expression Variability
 
