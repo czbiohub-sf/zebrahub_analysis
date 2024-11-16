@@ -18,7 +18,7 @@ This repository contains a collection of scripts and notebooks to analyze Zebrah
 <br>
 For analysis of imaging data, please refere to https://github.com/royerlab/in-silico-fate-mapping
 
-The manuscript is  published here:  https://www.biorxiv.org/content/10.1101/2023.03.06.531398v1
+The manuscript is  published here:  https://www.cell.com/cell/fulltext/S0092-8674(24)01147-4
 Data is accesible through the Zebrahub portal: https://zebrahub.ds.czbiohub.org/
 <br>
 <br>
@@ -87,21 +87,21 @@ conda install -c jmcmurray json
 conda install -c anaconda requests
 
 ```
+## License
+This project is licensed under the BSD 3-Clause license - see the LICENSE file for details.
 
 
 ## Citing 
 If used plase cite: 
 
 ```
-@article{lange2023zebrahub,
-  title={Zebrahub-Multimodal Zebrafish Developmental Atlas Reveals the State Transition Dynamics of Late Vertebrate Pluripotent Axial Progenitors},
-  author={Lange, Merlin and Granados, Alejandro and VijayKumar, Shruthi and Bragantini, Jordao and Ancheta, Sarah and Santhosh, Sreejith and Borja, Michael and Kobayashi, Hirofumi and McGeever, Erin and Solak, Ahmet Can and others},
-  journal={bioRxiv},
-  pages={2023--03},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
+@article{lange2024multimodal,
+  title={A multimodal zebrafish developmental atlas reveals the state-transition dynamics of late-vertebrate pluripotent axial progenitors},
+  author={Lange, Merlin and Granados, Alejandro and VijayKumar, Shruthi and Bragantini, Jord{\~a}o and Ancheta, Sarah and Kim, Yang-Joon and Santhosh, Sreejith and Borja, Michael and Kobayashi, Hirofumi and McGeever, Erin and others},
+  journal={Cell},
+  publisher={Elsevier}
 }
 ```
 
 
-[1]: https://www.biorxiv.org/content/10.1101/2023.03.06.531398v1
+[1]: https://www.cell.com/cell/fulltext/S0092-8674(24)01147-4
