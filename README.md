@@ -19,6 +19,7 @@ This repository contains a collection of scripts and notebooks to analyze Zebrah
 For analysis of imaging data, please refere to https://github.com/royerlab/in-silico-fate-mapping
 
 The manuscript is  published here:  https://www.cell.com/cell/fulltext/S0092-8674(24)01147-4
+
 Data is accesible through the Zebrahub portal: https://zebrahub.ds.czbiohub.org/
 <br>
 <br>
